@@ -1,0 +1,1 @@
+let isIntArray = arr => !!arr && arr.every(Number.isInteger);
