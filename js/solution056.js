@@ -7,10 +7,8 @@ function alphabetWar(fight) {
   for (let i = 0; i < fight.length; i++) {
     if (right.includes(fight[i])) {
       scoreRight += right.indexOf(fight[i]) + 1;
-      console.log(scoreRight);
     } else {
       scoreLeft += left.indexOf(fight[i]) + 1;
-      console.log(scoreLeft);
     }
   }
   if (scoreRight > scoreLeft) {
