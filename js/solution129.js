@@ -1,3 +1,4 @@
+// aoc 2022 day 8 part 2
 const fs = require("fs");
 
 const inputStr = fs
